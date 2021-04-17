@@ -69,7 +69,7 @@ public abstract class BaseSpriteProvider implements SpriteProvider {
 		case UP:
 			//return pos.north();
 		case DOWN:
-			return pos.south();
+			return pos.north();
 		case NORTH:
 		case SOUTH:
 		case EAST:
@@ -127,7 +127,7 @@ public abstract class BaseSpriteProvider implements SpriteProvider {
 		case UP:
 			//return pos.south();
 		case DOWN:
-			return pos.north();
+			return pos.south();
 		case NORTH:
 		case SOUTH:
 		case EAST:
